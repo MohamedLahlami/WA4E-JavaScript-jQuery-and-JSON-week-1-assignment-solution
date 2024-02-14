@@ -1,0 +1,18 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30%;
+}
+
+input, label, textarea{
+    margin: 0.5rem;
+    
+}
+
+label{
+    display: inline-block;
+    width: 7%;
+}
+
+table, th, td {
+    border: 1px solid;
+}
