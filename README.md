@@ -7,10 +7,10 @@ CREATE TABLE users (
   password VARCHAR(128),
   PRIMARY KEY(user_id)
 ) ENGINE = InnoDB DEFAULT CHARSET=utf8;
+"ALTER TABLE users ADD INDEX(email);
+ALTER TABLE users ADD INDEX(password);"
 
-ALTER TABLE users ADD INDEX(email);
-ALTER TABLE users ADD INDEX(password);
--------------------------------------
+
 CREATE TABLE Profile (
   profile_id INTEGER NOT NULL AUTO_INCREMENT,
   user_id INTEGER NOT NULL,
